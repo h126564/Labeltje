@@ -10,22 +10,49 @@
             color: #464655; /* Tekstkleur */
             margin: 0; /* Zorgt ervoor dat er geen witte randen zijn */
             font-family: Arial, sans-serif;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        p {
-            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center; /* Zorgt ervoor dat alle tekst gecentreerd is */
         }
 
         hr {
             border: none;
             height: 4px;
             background-color: #EB6534; /* Professionele lijn */
-            margin: 20px auto;
             width: 80%;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            max-width: 600px;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #464655;
+            padding: 10px;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+
+        a {
+            color: #EB6534;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -59,6 +86,6 @@
         <li><a href="Stoffen/NatuurZoetstoffen/xylitol/xylitol.html">Xylitol/E967</a></li>
     </ul>
     
-    <a href="excelenummers.html"> Link naar tabel van alle bekende E-nummers</a>
+    <a href="excelenummers.html">Link naar tabel van alle bekende E-nummers</a>
 </body>
 </html>
